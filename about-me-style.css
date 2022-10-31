@@ -1,0 +1,181 @@
+:root {
+    --dark-bg:#212529; 
+    --color: #ffffff;
+    
+}
+
+body {
+    color: var(--color);
+    background-color: var(--dark-bg);
+    font-family: 'monserrat'system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.light-mode{ 
+    --dark-bg:#ffffff;
+    --color:#212529;
+}
+
+button {
+    background-color:#212529; 
+    border: none;
+}
+
+header {
+    position: fixed;
+    transition: 0,2;
+    width: 100%;
+}
+
+.nav-link {
+    color: #edf6f9;
+}
+
+.nav-link:hover {
+    color: #8d99ae;
+}
+
+.switch {
+    position: relative;
+    margin-top: 5px;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #0077b6;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #0077b6;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+hr {
+    color:#8d99ae ;
+
+}
+
+.nav-link {
+    color: #edf6f9;
+}
+
+.nav-link:hover {
+    color: #8d99ae;
+}
+
+.aboutmepic {
+    width: 43%;
+    height: 100%;
+    margin-top: 150px;
+    padding-bottom: 30px;
+}
+
+.infome {
+    color: var(--color);
+    margin-top: 160px;
+}
+
+.infome h1 {
+    color: var(--color);
+    font-size: 30px;
+}
+
+.infome p {
+    font-size: 20px;
+    
+}
+
+.aboutme {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+p.bigger {
+    color: var(--color);
+    font-size:25px ;
+}
+
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+footer .img-3 {
+    margin-top: 20px;
+}
+
+
+hr {
+    color:#8d99ae ;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+footer .img-3 {
+    margin-top: 20px;
+}
+
+.guyn{
+    background-color: #212529;
+}
+
